@@ -1,0 +1,213 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Installment Calculator\n"
+"POT-Creation-Date: 2025-12-22 12:30-0300\n"
+"PO-Revision-Date: 2025-12-22 13:06-0300\n"
+"Last-Translator: \n"
+"Language-Team: LetsGoDev\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e\n"
+"X-Poedit-SearchPath-0: app\n"
+"X-Poedit-SearchPath-1: resources\n"
+"X-Poedit-SearchPath-2: wc-installment-calculator.php\n"
+"X-Poedit-SearchPath-3: index.php\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+
+#: app/Controllers/LinksController.php:23
+msgid "Settings"
+msgstr "Ajustes"
+
+#: app/Controllers/LinksController.php:46
+#: app/Controllers/LinksController.php:47
+msgid "WC Installment Calculator PRO"
+msgstr "WC Installment Calculator PRO"
+
+#: app/Controllers/ProductController.php:141 app/Settings/WCSettings.php:132
+msgid "Show Installments"
+msgstr "Ver cuotas"
+
+#: app/Controllers/ProductController.php:189
+#: app/Controllers/ProductController.php:237
+msgid "Security check failed."
+msgstr "Validación de seguridad fallido."
+
+#: app/Controllers/SettingsController.php:97
+msgid "%number% installments of %subtotal%"
+msgstr "%number% cuotas de %subtotal%"
+
+#: app/Settings/WCSettings.php:21 resources/views/product-simple-fields.php:1
+#: resources/views/product-variation-fields.php:2
+#: resources/views/product-variation-fields.php:13
+msgid "Installment Calculator"
+msgstr "Calculadora de cuotas"
+
+#: app/Settings/WCSettings.php:34
+msgid "General"
+msgstr "General"
+
+#: app/Settings/WCSettings.php:35
+msgid "Design"
+msgstr "Diseño"
+
+#: app/Settings/WCSettings.php:85
+msgid "Desings"
+msgstr "Diseños"
+
+#: app/Settings/WCSettings.php:90
+msgid "Design on the product page"
+msgstr "Diseño en la página del producto"
+
+#: app/Settings/WCSettings.php:91
+msgid "Installments design on the product page."
+msgstr "Diseño de cuotas en la página de producto."
+
+#: app/Settings/WCSettings.php:103
+msgid "Installments"
+msgstr "Cuotas"
+
+#: app/Settings/WCSettings.php:108
+msgid "Rules"
+msgstr "Reglas"
+
+#: app/Settings/WCSettings.php:109
+msgid "Define the rules for the installment calculator."
+msgstr "Define la reglas para la calculadora de cuotas."
+
+#: app/Settings/WCSettings.php:113
+msgid "Shop page"
+msgstr "Página de la tienda"
+
+#: app/Settings/WCSettings.php:119
+msgid "Actions"
+msgstr "Acciones"
+
+#: app/Settings/WCSettings.php:123
+msgid "Enable the show installment button"
+msgstr "Activa el mostrar el boton de cuotas"
+
+#: app/Settings/WCSettings.php:126
+msgid ""
+"If you activate this option, a button/link will appear on the product page "
+"that, when clicked, will display the installments"
+msgstr ""
+"Si activas esta opción, un botón/enlace aparecerá en la página de productos "
+"que, cuando hagas click, mostrará las cuotas"
+
+#: app/Settings/WCSettings.php:129
+msgid "Label of the show installment button"
+msgstr "Texto para el botón de mostrar cuotas"
+
+#: app/Settings/WCSettings.php:134
+msgid "Remove installment calculator for all products"
+msgstr "Quitar la calculadora de cuotas para todos los productos"
+
+#: app/Settings/WCSettings.php:137
+msgid "Enable installment calculator for all products"
+msgstr "Activar la calculadora de cuotas para todos los productos"
+
+#: resources/views/product-simple-fields.php:7
+#: resources/views/settings-button-enable.php:9
+msgid "Enable Installment Calculator"
+msgstr "Activar calculadora de cuotas"
+
+#: resources/views/product-simple-fields.php:8
+msgid "Enable the installment calculator for this product."
+msgstr "Activar la calculadora de cuotas para este producto."
+
+#: resources/views/product-variation-fields.php:16
+msgid "Enable installment calculator for this variation."
+msgstr "Activar la calculadora de cuotas para esta variación."
+
+#: resources/views/settings-button-disable.php:9
+msgid "Disable Installment Calculator"
+msgstr "Desactivar la calculadora de cuotas"
+
+#: resources/views/settings-button-disable.php:12
+#: resources/views/settings-button-enable.php:12
+#: resources/views/settings-designs.php:22
+#: resources/views/settings-designs.php:37
+#: resources/views/settings-designs.php:53
+#: resources/views/settings-designs.php:67
+#: resources/views/settings-designs.php:81
+#: resources/views/settings-designs.php:97
+#: resources/views/settings-designs.php:111
+#: resources/views/settings-designs.php:125
+#: resources/views/settings-shop.php:11
+msgid "Only Pro version available"
+msgstr "Sólo disponible en version PRO"
+
+#: resources/views/settings-button-disable.php:16
+msgid ""
+"Clicking this button, you will disable the installment calculator for all "
+"your products."
+msgstr ""
+"Presionando el botón, desactivarás la calculadora de cuotas para todos los "
+"productos."
+
+#: resources/views/settings-button-enable.php:16
+msgid ""
+"Clicking this button, you will enable the installment calculator for all "
+"your products."
+msgstr ""
+"Presionando el botón, activarás la calculadora de cuotas para todos los "
+"productos."
+
+#: resources/views/settings-designs.php:14
+#: resources/views/settings-designs.php:26
+#: resources/views/settings-designs.php:41
+#: resources/views/settings-designs.php:57
+#: resources/views/settings-designs.php:71
+#: resources/views/settings-designs.php:85
+#: resources/views/settings-designs.php:101
+#: resources/views/settings-designs.php:115
+#: resources/views/settings-designs.php:129
+msgid "Available"
+msgstr "Disponible"
+
+#: resources/views/settings-rules.php:15
+msgid "Subtitle (optional)"
+msgstr "Subtitulo (opcional)"
+
+#: resources/views/settings-rules.php:22
+msgid "Installment"
+msgstr "Cuota"
+
+#: resources/views/settings-rules.php:23
+msgid "Surcharge (%)"
+msgstr "Recargo (%)"
+
+#: resources/views/settings-rules.php:24
+msgid "Content"
+msgstr "Contenido"
+
+#: resources/views/settings-rules.php:42
+msgid "Add Installment"
+msgstr "Agregar cuota"
+
+#: resources/views/settings-rules.php:48
+msgid "Product price"
+msgstr "Precio del producto"
+
+#: resources/views/settings-rules.php:49
+msgid "Number of installments"
+msgstr "Número de cuotas"
+
+#: resources/views/settings-rules.php:50
+msgid "Surcharge (in percentage)"
+msgstr "Recargo (en porcentaje)"
+
+#: resources/views/settings-rules.php:54
+msgid "( %price% + %surcharge% ) / %number%"
+msgstr "( %price% + %surcharge% ) / %number%"
+
+#: resources/views/settings-shop.php:26
+msgid "Display a selected installment in the product list (shop page)."
+msgstr ""
+"Mostrar una cuota seleccionada en el listado de productos (página de la "
+"tienda)."

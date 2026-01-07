@@ -1,0 +1,26 @@
+{
+	"name": "letsgodev/wc-installment-calculator",
+	"type": "wordpress-plugin",
+	"license": "MIT",
+	"description": "This plugin allows add a installment calculator to the shop",
+	"authors": [
+		{
+			"name": "Lets Go Dev",
+			"email": "support@letsgodev.com",
+			"homepage": "https://github.com/gonzalesc"
+		}
+	],
+	"require": {
+        "php": "^7.0 || ^8.0 || ^8.1 || ^8.2"
+	},
+	"autoload": {
+		"psr-4": {
+			"iCalculator\\Core\\": "app",
+			"iCalculator\\Controllers\\": "app/Controllers",
+			"iCalculator\\Traits\\": "app/Traits"
+		},
+		"files": [
+      		"app/Functions/Helper.php"
+		]
+	}
+}
