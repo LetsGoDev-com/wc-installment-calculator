@@ -78,7 +78,10 @@ No, este plugin es solo informativo; las comisiones las gestiona cada pasarela d
 
 
 == Screenshots ==
-1. Deal to same product
+1. Cuotas en la página de productos
+2. Settings - Agregar cuotas
+3. Settings - Agregar enlace/botón para ver cuotas
+4. Settings - Elegir diseño prediseñado
 
 
 == Changelog ==

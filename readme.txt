@@ -77,7 +77,10 @@ No.
 No, this plugin is for informational purposes only; fees are handled by each individual payment gateway.
 
 == Screenshots ==
-1. Deal to same product
+1. Installments on product page
+2. Settings - Add installments
+3. Settings - Add link/button to show installment
+4. Settings - Choose pre-designed layouts
 
 
 == Changelog ==
