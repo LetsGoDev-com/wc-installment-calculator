@@ -45,7 +45,7 @@ Fork me in [https://github.com/LetsGoDev-com/wc-installment-calculator](https://
 
 
 == Installment Calculator PRO - Features ==
-Look the **new premium verions** in [https://www.letsgodev.com/product/woocommerce-installment-calculator/](https://www.letsgodev.com/product/woocommerce-installment-calculator/)
+Look the **new premium verions** in [https://www.letsgodev.com/product/woocommerce-installment-calculator-pro/](https://www.letsgodev.com/product/woocommerce-installment-calculator-pro/)
 
 * Choose from multiple pre-designed layouts
 * Create installment groups by card type (VISA, MasterCard, Diners, etc.)

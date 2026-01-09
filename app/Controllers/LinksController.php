@@ -42,7 +42,7 @@ class LinksController {
 		$newLinks = [
 			'premium' => sprintf(
 				'<a href="%s" target="_blank" title="%s">%s</a>',
-				\esc_url( 'https://www.letsgodev.com/product/woocommerce-installment-calculator/' ),
+				\esc_url( 'https://www.letsgodev.com/product/woocommerce-installment-calculator-pro/' ),
 				\esc_html__( 'WC Installment Calculator PRO', 'wc-installment-calculator' ),
 				\esc_html__( 'WC Installment Calculator PRO', 'wc-installment-calculator' )
 			),
