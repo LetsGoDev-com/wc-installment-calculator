@@ -96,6 +96,10 @@ class ProductController {
 	public function productDisplay(): void {
 		global $product;
 
+		if ( \apply_filters( 'icalculator/product/avoid_product_display', false, $product ) ) {
+			return;
+		}
+
 
 		if ( $product->is_type('variable') ) {
 			echo '<div class="icalculator"></div>';
@@ -129,7 +133,7 @@ class ProductController {
 			\ob_start();
 		}
 
-		if ( \has_action( 'icalculator/product/display_installment' ) ) {
+		if ( \apply_filters( 'icalculator/product/has_display_installment', false ) ) {
 			\do_action( 'icalculator/product/display_installment', $product );
 			
 			if ( ! $echo ) {

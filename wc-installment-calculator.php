@@ -21,7 +21,7 @@
  * WP requires at least: 6.8.0
  * WP tested up to:      6.9
  * WC requires at least: 10.3.9
- * WC tested up to:      10.4.2
+ * WC tested up to:      10.4.3
  */
 
 // If this file is called directly, abort.

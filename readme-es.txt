@@ -24,7 +24,7 @@ Sin integración con pasarelas de pago ni modificaciones en el proceso de compra
 
 Fork me in [https://github.com/LetsGoDev-com/wc-installment-calculator](https://github.com/LetsGoDev-com/wc-installment-calculator)
 
-== Available Languages ==
+== Idiomas disponibles ==
 
 * English
 * Spanish

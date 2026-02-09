@@ -121,16 +121,10 @@
 							<img src="<?php echo \esc_html( ICALCULATOR_URL ) . 'resources/assets/images/design8-es.jpg'; ?>" alt="Design 9" />
 						</td>
 						<td>
-							<div class="wc-icalculator-design-input"><input type="radio" name="wc_icalculator[design_product_page]" value="9" <?php \checked( $design, 9 ); ?> <?php \disabled( $disabled ); ?> />
-								<?php if ( $disabled ) : ?>
-									<span class="wc-icalculator-design-only-pro">
-										<?php \esc_html_e( 'Only Pro version available', 'wc-installment-calculator' ); ?>
-									</span>
-								<?php else : ?>
-									<span class="wc-icalculator-design-available">
-										<?php \esc_html_e( 'Available', 'wc-installment-calculator' ); ?>
-									</span>
-								<?php endif; ?>
+							<div class="wc-icalculator-design-input"><input type="radio" name="wc_icalculator[design_product_page]" value="9" <?php \checked( $design, 9 ); ?> />
+								<span class="wc-icalculator-design-available">
+									<?php \esc_html_e( 'Available', 'wc-installment-calculator' ); ?>
+								</span>
 							</div>
 							<img src="<?php echo \esc_html( ICALCULATOR_URL ) . 'resources/assets/images/design9-es.jpg'; ?>" alt="Design 9" />
 						</td>

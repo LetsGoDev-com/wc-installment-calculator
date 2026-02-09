@@ -169,7 +169,7 @@ class SettingsController {
 			'rules'        => getSettings( 'rules', [] ),
 		];
 
-		if ( \has_action( 'icalculator/settings/rules_field' ) ) {
+		if ( \apply_filters( 'icalculator/settings/has_settings_field', false ) ) {
 			\do_action( 'icalculator/settings/rules_field', $args );
 			return;
 		}
@@ -198,7 +198,7 @@ class SettingsController {
 			'rules'        => getSettings( 'rules', [] ),
 		];
 
-		if ( \has_action( 'icalculator/settings/shop_field' ) ) {
+		if ( \apply_filters( 'icalculator/settings/has_settings_field', false ) ) {
 			\do_action( 'icalculator/settings/shop_field', $args );
 			return;
 		}
